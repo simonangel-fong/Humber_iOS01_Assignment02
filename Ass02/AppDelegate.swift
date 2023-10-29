@@ -11,15 +11,8 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
     
     /// An object of TicketModel with initialized tickets.
-    var ticketModelDelegate:TicketModel = TicketModel(
-        initTickets:   [
-            Ticket(name: "Balcony", quantity: 12, price: 1170),
-            Ticket(name: "Lower", quantity: 20, price: 10434),
-            Ticket(name: "Courtside", quantity: 15, price: 27777)
-        ]
-    )
-    
-    
+    var ticketModelDelegate:TicketModel = TicketModel()
+        
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         return true

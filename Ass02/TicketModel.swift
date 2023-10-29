@@ -56,6 +56,7 @@ class Record:Ticket{
     }
 }
 
+
 /// A class to represent a model of the app.
 class TicketModel{
     
@@ -71,8 +72,12 @@ class TicketModel{
         - initTickets: The repo of tickets for initialization.
      - Returns: An object of app model.
      */
-    init(initTickets ticketList: [Ticket]) {
-        self.ticketList = ticketList
+    init() {
+        self.ticketList = [
+            Ticket(name: "Balcony", quantity: 12, price: 1170),
+            Ticket(name: "Lower", quantity: 20, price: 10434),
+            Ticket(name: "Courtside", quantity: 15, price: 27777)
+        ]
         self.recordList = [Record]()
     }
     
@@ -151,5 +156,20 @@ class TicketModel{
         ticket.quantity = newQuantity
         
         return "Update \(ticket.name)'s quantity successfully!"
+    }
+    
+    /**
+     Reset the repo quantity of a ticket
+     
+     - Parameters:
+     - Returns: A String of message.
+     */
+    func resetTicket() -> (String){
+        ticketList = [
+            Ticket(name: "Balcony", quantity: 12, price: 1170),
+            Ticket(name: "Lower", quantity: 20, price: 10434),
+            Ticket(name: "Courtside", quantity: 15, price: 27777)
+        ]
+        return "Reset all ticket quantities successfully!"
     }
 }

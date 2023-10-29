@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		F41B958F2AEDD8DA0072F7D5 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41B958E2AEDD8DA0072F7D5 /* HistoryViewController.swift */; };
+		F48BD2CA2AEED70300A93219 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F48BD2C92AEED70300A93219 /* README.md */; };
 		F4A8A8262AE21E84005C4124 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A8A8252AE21E84005C4124 /* AppDelegate.swift */; };
 		F4A8A8282AE21E84005C4124 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A8A8272AE21E84005C4124 /* SceneDelegate.swift */; };
 		F4A8A82A2AE21E84005C4124 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A8A8292AE21E84005C4124 /* ViewController.swift */; };
@@ -21,6 +22,7 @@
 
 /* Begin PBXFileReference section */
 		F41B958E2AEDD8DA0072F7D5 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		F48BD2C92AEED70300A93219 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F4A8A8222AE21E84005C4124 /* Ass02.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ass02.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4A8A8252AE21E84005C4124 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F4A8A8272AE21E84005C4124 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -48,6 +50,7 @@
 		F4A8A8192AE21E84005C4124 = {
 			isa = PBXGroup;
 			children = (
+				F48BD2C92AEED70300A93219 /* README.md */,
 				F4A8A8242AE21E84005C4124 /* Ass02 */,
 				F4A8A8232AE21E84005C4124 /* Products */,
 			);
@@ -139,6 +142,7 @@
 			files = (
 				F4A8A8322AE21E85005C4124 /* LaunchScreen.storyboard in Resources */,
 				F4A8A82F2AE21E85005C4124 /* Assets.xcassets in Resources */,
+				F48BD2CA2AEED70300A93219 /* README.md in Resources */,
 				F4A8A82D2AE21E84005C4124 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
